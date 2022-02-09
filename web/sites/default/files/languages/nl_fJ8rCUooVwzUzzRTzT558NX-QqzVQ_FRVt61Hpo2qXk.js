@@ -1,0 +1,1 @@
+window.drupalTranslations = {"strings":{"":{"Edit":"Bewerken","Save":"Opslaan","Show media item weights":"Toon gewicht van media-items","Hide media item weights":"Gewicht van media-items verbergen"}},"pluralFormula":{"1":0,"default":1}};

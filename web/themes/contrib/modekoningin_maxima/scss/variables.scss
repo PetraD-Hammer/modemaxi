@@ -1,0 +1,72 @@
+/* VARIABLES */
+
+// colors
+$primary: #f0ddd7;
+$primary-light: lighten($primary, 37%);
+$primary-dark: darken($primary, 12%);
+$accent-shade: #84754e;
+$accent-light: #ac9c84;
+$accent-dark: darken($accent-shade, 12%);
+$secondary:#cba052;
+$secondary-light: #dcbb87;
+$secondary-dark: darken($secondary, 12%);
+$primary-shade: $primary;
+// Reassign color vars to semantic color scheme
+$blue:    #4169e1;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #f0ddd7; 
+$red:     #f70a22;
+$orange:  #ff6720;
+$yellow:  #e0ff4f;
+$green:   #009b72;
+$teal:    #20c997;
+$cyan:    #009b72;
+
+$white: #fff;
+$black: #0000;
+$gray-100: #f7f5f2;
+$gray-800: #2a2d34;
+$theme-colors: ( primary: $primary, secondary: $secondary, accent: $accent-shade,  success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800);
+$brand-primary: $primary;
+
+$brand-inverse: $primary-shade;
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: $white;
+$body-color: $gray-800;
+$inverse-bg: $primary-shade;
+$inverse-color: $white;
+// Links
+//
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif:    "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$headings-font-weight:      400 !default;
+// Buttons
+
+$input-btn-padding-y: .5rem;
+$input-btn-padding-x: 1.1rem;
+$btn-font-family: $font-family-sans-serif;
+$btn-font-size: .875rem;
+$btn-font-size-sm: .688rem;
+
+$btn-border-radius: 1.078em;
+$btn-border-radius-lg: 2.688em;
+$btn-border-radius-sm: .844em;
+// Style anchor elements.
+$link-color: $accent-shade;
+$link-decoration: none;
+$link-hover-color: $accent-dark;
+$link-hover-decoration: underline;
+// Comments
+$comment-spacer-x: 1.25em;
+$comment-spacer-y: 1.25em;
+// Responsive font sizes
+$enable-responsive-font-sizes: true;
+$enable-shadows: false;
+$enable-gradients: false;
+// Breadcrumbs (Works only on Bootstrap 5+)
+// $breadcrumb-divider: quote(">");
